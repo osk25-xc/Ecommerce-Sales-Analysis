@@ -1,36 +1,42 @@
-# E-commerce Sales Analysis | Data Analytics
+# E-commerce Sales Analysis
 
-A business-focused analytics project for exploring e-commerce sales data and summarizing performance in a clear, reusable format.
+A portfolio project for exploring e-commerce transactions and turning validated data into useful business summaries.
 
-## Objective
-Use transaction data to investigate sales performance and identify useful trends across products, customers, and time.
+## Business objective
 
-## Suggested Analysis Areas
-- Overall sales and order metrics
-- Monthly sales trends
-- Product and category performance
-- Customer contribution
-- Regional performance, if region data is available
-- Data quality checks and clear visual summaries
+Understand sales performance across time, products, categories, and customers. The exact dimensions depend on the columns available in the source dataset.
+
+## Analysis questions
+
+- How do sales and order counts change over time?
+- Which products or categories contribute most to sales?
+- How is customer contribution distributed?
+- Are there unusual values, missing records, or duplicate transactions?
+- Which findings can be supported by the available data?
+
+## Analysis workflow
+
+1. Inspect the dataset grain, schema, and date range.
+2. Check missing values, duplicates, invalid quantities, and numeric fields.
+3. Define revenue, order, and profit metrics using explicit business rules.
+4. Analyze time trends and product/customer performance.
+5. Reconcile totals and document findings and limitations.
+
+## Repository guide
+
+- `ANALYSIS_PLAN.md` — analysis questions, KPI definitions, and validation checklist.
+- Review the remaining repository files for the source data and implemented analysis scripts.
 
 ## Tools
-The exact tools and deliverables should be confirmed from the files in this repository. The project is intended to demonstrate practical analytics workflow and business-oriented reporting.
 
-## Workflow
-1. Inspect the source dataset and its schema.
-2. Validate missing values, duplicates, dates, and numeric fields.
-3. Define the KPIs using explicit business rules.
-4. Analyze trends and segment performance.
-5. Present findings with charts or tables and document any limitations.
+Use the tools and versions recorded in the project files. Do not infer that a tool or dashboard is part of the deliverable unless the corresponding file is present.
 
-## Business Value
-A well-structured sales analysis helps stakeholders understand what is happening in the data and where further investigation may be useful. Actual conclusions should be based on the included dataset and reproducible outputs.
+## Results and interpretation
 
-## How to Use
-Review the repository files first, then follow the notebook, SQL script, or workbook instructions included with the project. Add only the tools and findings that are supported by the actual implementation.
+Add numerical findings only after running the analysis against the repository dataset. Explain the filters, time period, and metric definitions used. If the dataset is synthetic, identify it as practice data.
 
-## Skills Demonstrated
-Data exploration · KPI definition · Sales analysis · Data visualization · Business communication
+## Skills demonstrated
 
----
-Created by **Omkar S. Kshirsagar** | [GitHub Profile](https://github.com/osk25-xc)
+Data inspection · KPI definition · Sales analysis · Data validation · Business reporting
+
+Maintained by [Omkar S. Kshirsagar](https://github.com/osk25-xc).
